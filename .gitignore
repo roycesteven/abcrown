@@ -1,0 +1,27 @@
+# --- ab-CROWN run artifacts -------------------------------------------------
+# conf_*.yaml embeds absolute local paths; never commit these.
+conf_*.yaml
+out_*.pkl
+out_*.txt
+tmp_query.vnnlib
+*.compiled
+
+# --- Coursework artifacts ---------------------------------------------------
+solution_*.csv
+query_*.vnnlib
+notes_*.pdf
+sources_*.zip
+code_*.zip
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- OS / editor ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
